@@ -20,3 +20,9 @@ Yup, with the public folder, expect a full backend. Fn, I'm frontending this bii
   Everyone else will only vary in terms of size.
   Then I have to think about containers for my headers.
   Or at least a way of containerising them with CSS for beautiful effects and what not
+
+- A side note: here is the google import for css for fonts if you want to switch
+
+```CSS
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100&display=swap');
+```
