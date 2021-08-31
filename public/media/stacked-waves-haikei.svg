@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   inkscape:label="lightestTop"
+   sodipodi:docname="stacked-waves-haikei.svg"
+   version="1.1"
+   height="396"
+   width="1584"
+   viewBox="0 0 1584 396"
+   id="visual">
+  <metadata
+     id="metadata13">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs11" />
+  <sodipodi:namedview
+     inkscape:current-layer="visual"
+     inkscape:window-maximized="1"
+     inkscape:window-y="-8"
+     inkscape:window-x="-8"
+     inkscape:cy="198"
+     inkscape:cx="792"
+     inkscape:zoom="0.66224747"
+     showgrid="false"
+     id="namedview9"
+     inkscape:window-height="1017"
+     inkscape:window-width="1920"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <g
+     inkscape:label="lightBlueTopmost"
+     id="g16">
+    <path
+       d="m 0,68 132,5.3 c 132,5.4 396,16 660,27.4 264,11.3 528,23.3 660,29.3 l 132,6 V 0 H 1452 C 1320,0 1056,0 792,0 528,0 264,0 132,0 H 0 Z"
+       fill="#66b3fe"
+       id="path2" />
+  </g>
+  <g
+     inkscape:label="regularBluemiddle"
+     id="g19">
+    <path
+       d="M0 163L132 161C264 159 528 155 792 176.2C1056 197.3 1320 243.7 1452 266.8L1584 290L1584 134L1452 128C1320 122 1056 110 792 98.7C528 87.3 264 76.7 132 71.3L0 66Z"
+       fill="#0091fc"
+       id="path4" />
+  </g>
+  <g
+     inkscape:label="darkBlueBottom"
+     id="g22">
+    <path
+       d="m 0,397 h 132 c 132,0 396,0 660,0 264,0 528,0 660,0 h 132 V 288 L 1452,264.8 C 1320,241.7 1056,195.3 792,174.2 528,153 264,157 132,159 L 0,161 Z"
+       fill="#006bb8"
+       id="path6" />
+  </g>
+</svg>
