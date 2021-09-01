@@ -1,13 +1,95 @@
 /* define basis then expand */
 * {
+  /* RESETS */
   margin: 0;
   padding: 0;
 }
 :root {
+  /* TOPOGRAPHY */
   font-family: "Roboto", sans-serif;
+  font-size: 16px;
+
+  /* VARIABLES */
+  --header-footer-size: 5em;
+  --topper-color: #002233;
+  --inner-color: #0066ff;
+  --lighter-inner: hsl(212deg, 100%, 77%);
+  --rounding: 0.4rem;
 }
 
-.page-wrapper{
-   display: flex;
-   flex-direction: column;
+/* ACCESSORIES */
+.link {
+}
+
+/* .link_sec{
+
+} */
+
+.btn {
+}
+/* .btn_sec{
+
+} */
+
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--lighter-inner);
+  padding: 0.4rem;
+}
+
+/* --HEADER-- */
+.header {
+  /* Base-el init */
+  width: 100%;
+  height: var(--header-footer-size);
+  background-color: var(--topper-color);
+  /* for testing */
+  margin-bottom: 100px;
+  /* TEST-END */
+  display: grid;
+  grid-template-rows: 5fr 1fr;
+  justify-items: center;
+  align-items: center;
+  /* round-off */
+  border: 0rem solid var(--topper-color);
+  border-radius: var(--rounding);
+}
+
+.nav {
+  /* Init */
+  width: 100%;
+  background-color: var(--inner-color);
+  /* round-off */
+  border: 0rem solid var(--topper-color);
+  border-radius: 0 0 var(--rounding) var(--rounding);
+}
+
+.nav_links {
+  /* Init */
+  width: 100%;
+  list-style-type: none;
+  /* acc - specs */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* --FOOOTERR--- */
+.footer {
+  /* Base-el init */
+  width: 100%;
+  height: calc(var(--header-footer-size) / 2);
+  background-color: var(--topper-color);
+  /* Align copyright */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* round-off */
+  border: 0rem solid var(--topper-color);
+  border-radius: var(--rounding);
+}
+
+.footer_copyright {
+  color: white;
 }
